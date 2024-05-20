@@ -1,0 +1,27 @@
+<html>
+<head>
+    <title>eriksarkinen.com</title>
+   <style>
+      #divsection {
+         width: 650px;
+         background-color: white;
+         height: 500px;
+      }
+   </style>
+</head>
+<body>
+   <h2>Dreaming in Code</h2>
+   <div id="divsection">
+      <p> Hello from 10101. </p>
+      <button onclick="changeBackgroundColor()">
+         Press it to change Background Color
+      </button>
+      <!-- Script functionality of backgroundColor property-->
+      <script>
+      function changeBackgroundColor() {
+         document.getElementById("divsection").style.backgroundColor = "blue";
+      }
+      </script>
+   </div>
+</body>
+</html>
