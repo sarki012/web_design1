@@ -1,0 +1,34 @@
+html, body, .wrapper { height: 100%; }
+.wrapper { position: relative; }
+.top { height: 15%; background: #222; }
+.mid { height: 70%; background: #CCC; }
+.bot { height: 15%; background: #777; }
+.container { 
+    position: absolute;
+    background: #FFF; 
+    padding: 20px; 
+    width: 80%;
+    top: 10%;
+    left: 50%;
+    margin-left: -40%;
+    clear: both;
+}
+.container > div {
+    float: left;
+    width: 42%;
+    height: 250px;
+    padding: 1%;
+}
+.container > div:first-child {
+    background: #EEE;
+    float: left;
+    width: 54%;
+}
+.container > p {
+    position: absolute;
+    bottom: -100px;
+    right: 0;
+    border: 1px solid #EEE;
+    width: 50%;
+    height: 70px;
+}
